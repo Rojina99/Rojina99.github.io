@@ -3,7 +3,7 @@ title: "Introduction"
 date: 2018-12-24
 tags: [machine learning, data science, neural network, experience]
 header:
-  image: "/images/Introduction/Introduction.jpg"
+  image: "/images/Introduction/introduction.jpg"
 excerpt: "Machine Learning, Data Science"
 mathjax: "true"
 ---
