@@ -4,6 +4,7 @@ date: 2018-12-24
 tags: [machine learning, data science, neural network, experience]
 header:
   image: "/images/introduction/intro.jpg"
+  image: "/images/introduction/intro1.jpg"
 excerpt: "Machine Learning, Data Science"
 mathjax: "true"
 ---
