@@ -8,7 +8,7 @@ excerpt: "Machine Learning, Data Science"
 mathjax: "true"
 ---
 
-This has long been overdue. I always wanted to share my experiences I have gained in last three years in the field of Machine Learning.
+This has long been overdue. I always wanted to share my experiences I have gained in last three years.
 I thought this might be helpful for anybody who is willing to step into the field of Machine Learning. 
 
 I had so many obstacles when I started; as lack of enough materials in the internet, lack of understanding of where to start for preparing a Machine Learning project.
