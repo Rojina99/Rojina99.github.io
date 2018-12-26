@@ -26,6 +26,8 @@ We have a rule in our college that we cannot choose the topics or algorithms tha
 
 Firstly, lets start with Artificial Neural Network which we had researched at our very first month of project. Artificial Neural Networks is simply the structure used to calculate output based on input, hidden layer followed by activation functions to produce desired result.
 
+{% include feature_row %}
+
 <img src="{{ site.url }}{{ site.baseurl }}/images/ann/ann_basic.jpg" alt="input output ann">
 *Figure: 1*
 <img src="{{ site.url }}{{ site.baseurl }}/images/ann/ann_weight.png" alt="weighted ann">
