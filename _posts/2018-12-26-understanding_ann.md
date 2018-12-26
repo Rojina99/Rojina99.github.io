@@ -13,8 +13,8 @@ We have a rule in our college that we cannot choose the topics or algorithms tha
 Firstly, lets start with Artificial Neural Network which we have researched at our very first month of project. Artificial Neural Networks simply the structure used to calculate output based on input, hidden layer followed by activation functions to produce desired result.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/ann/ann_basic.jpg" alt="input output ann">
-<img src="{{ site.url }}{{ site.baseurl }}/images/ann_weight.png" alt="weighted ann">
-<img src="{{ site.url }}{{ site.baseurl }}/images/ann_math.jpg" alt="activation ann">
+<img src="{{ site.url }}{{ site.baseurl }}/images/ann/ann_weight.png" alt="weighted ann">
+<img src="{{ site.url }}{{ site.baseurl }}/images/ann/ann_math.jpg" alt="activation ann">
 
 Lets, now discuss about each aspect of neural network in detail:
 ANN consists of neurons, weights, biases, layers.
