@@ -9,13 +9,16 @@ mathjax: "true"
 feature_row:
   - image_path: /images/ann/ann_basic.jpg
     alt: "input output ann"
-    excerpt: "*Figure 1*"
+    url: /images/ann/ann_basic.jpg
+    title: "*Figure 1*"
   - image_path: /images/ann/ann_weight.png
     alt: "weighted ann"
-    excerpt: "*Figure 2*"
+    url: /images/ann/ann_weight.png
+    title: "*Figure 2*"
   - image_path: /images/ann/ann_math.jpg
     alt: "activation ann"
-    excerpt: "*Figure 3*"
+    url: /images/ann/ann_math.jpg
+    title: "*Figure 3*"
 ---
 
 We have a rule in our college that we cannot choose the topics or algorithms that our senior had done in previous year. Since, we were willing to do a project related to prediction of disease. Our senoirs had done a project on pneumonia detection using Bayesian Network. So, we had no any algorithm of choice rather than Artificial Neural Network; That's what we thought at that time.
