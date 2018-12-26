@@ -6,6 +6,20 @@ header:
   image: "/images/introduction/intro.jpg"
 excerpt: "Machine Learning, Data Science"
 mathjax: "true"
+feature_row:
+  - image_path: /images/ann/ann_basic.jpg
+    alt: "input output ann"
+    title: "Placeholder 1"
+    excerpt: "*Figure 1*"
+  - image_path: /images/ann/ann_basic.jpg
+    alt: "weighted ann"
+    excerpt: "*Figure 2*"
+    url: "         #https://www.researchgate.net/profile/Md_Rafiqul_Islam5/publication/221911789/figure/fig1/AS:304732305412105@1449665251675/An-example-of-a-multilayer-feed-forward-artificial-neural-network.png"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+  - image_path: /images/ann/ann_basic.jpg
+    alt: "activation ann"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
 ---
 
 We have a rule in our college that we cannot choose the topics or algorithms that our senior had done in previous year. Since, we were willing to do a project related to prediction of disease. Our senoirs had done a project on pneumonia detection using Bayesian Network. So, we had no any algorithm of choice rather than Artificial Neural Network; That's what we thought at that time.
@@ -28,7 +42,7 @@ ANN consists of neurons, weights, biases, layers.
 
 
 References:
-
+  <br>
   1.<a href="https://www.tutorialspoint.com/artificial_intelligence/images/atypical_ann.jpg">Figure 1</a><br>
   2.<a href="         https://www.researchgate.net/profile/Md_Rafiqul_Islam5/publication/221911789/figure/fig1/AS:304732305412105@1449665251675/An-example-of-a-multilayer-feed-forward-artificial-neural-network.png">Figure 2</a><br>
   3.<a href="https://i.stack.imgur.com/VqOpE.jpg">Figure 3</a><br>
