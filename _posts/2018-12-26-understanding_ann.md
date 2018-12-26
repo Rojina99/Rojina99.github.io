@@ -28,6 +28,6 @@ ANN consists of neurons, weights, biases, layers.
 
 
 References:
-  1.<a href="https://www.tutorialspoint.com/artificial_intelligence/images/atypical_ann.jpg">Figure 1</a>
-  2.<a href="         https://www.researchgate.net/profile/Md_Rafiqul_Islam5/publication/221911789/figure/fig1/AS:304732305412105@1449665251675/An-example-of-a-multilayer-feed-forward-artificial-neural-network.png">Figure 2</a>
-  3.<a href="https://i.stack.imgur.com/VqOpE.jpg">Figure 3</a>
+  1.<a href="https://www.tutorialspoint.com/artificial_intelligence/images/atypical_ann.jpg">Figure 1</a><br \>
+  2.<a href="         https://www.researchgate.net/profile/Md_Rafiqul_Islam5/publication/221911789/figure/fig1/AS:304732305412105@1449665251675/An-example-of-a-multilayer-feed-forward-artificial-neural-network.png">Figure 2</a><br \>
+  3.<a href="https://i.stack.imgur.com/VqOpE.jpg">Figure 3</a><br \>
