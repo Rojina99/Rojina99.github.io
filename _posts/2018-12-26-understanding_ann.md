@@ -27,13 +27,6 @@ Firstly, lets start with Artificial Neural Network which we had researched at ou
 
 {% include gallery %}
 
-<!-- <img src="{{ site.url }}{{ site.baseurl }}/images/ann/ann_basic.jpg" alt="input output ann">
-*Figure: 1*
-<img src="{{ site.url }}{{ site.baseurl }}/images/ann/ann_weight.png" alt="weighted ann">
-*Figure: 2*
-<img src="{{ site.url }}{{ site.baseurl }}/images/ann/ann_math.jpg" alt="activation ann">
-*Figure: 3* -->
-
 Lets, now discuss about each aspect of neural network in detail:
 ANN consists of neurons, weights, biases, layers.
 
