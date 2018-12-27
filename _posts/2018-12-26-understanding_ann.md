@@ -32,11 +32,11 @@ ANN consists neurons, weights, biases and layers.
 
   1. Neurons consits of values calculated using activation function and biases(We will discuss more about this in later post)
   2. Weights are the values between neurons from one layer to another.
-  3. ANN consists minimum of three layers; input layer, hidden layer and output layer. If a network consists of only one                               hidden layer it is also referred as one layer network.
+  3. ANN consists minimum of three layers: input layer, hidden layer and output layer. If a network consists of only one                               hidden layer it is also referred as one layer network.
 
 
 References:
   <br>
   1.<a href="https://www.tutorialspoint.com/artificial_intelligence/images/atypical_ann.jpg">Figure 1</a><br>
-  2.<a href="         https://www.researchgate.net/profile/Md_Rafiqul_Islam5/publication/221911789/figure/fig1/AS:304732305412105@1449665251675/An-example-of-a-multilayer-feed-forward-artificial-neural-network.png">Figure 2</a><br>
+  2.<a href="https://www.researchgate.net/profile/Md_Rafiqul_Islam5/publication/221911789/figure/fig1/AS:304732305412105@1449665251675/An-example-of-a-multilayer-feed-forward-artificial-neural-network.png">Figure 2</a><br>
   3.<a href="https://i.stack.imgur.com/VqOpE.jpg">Figure 3</a><br>
