@@ -28,11 +28,11 @@ Firstly, let's start with Artificial Neural Network which we had researched at o
 {% include gallery %}
 
 Lets, now discuss about each aspect of neural network in detail:
-ANN consists of neurons, weights, biases, layers.
+ANN consists neurons, weights, biases and layers.
 
   1. Neurons consits of values calculated using activation function and biases(We will discuss more about this in later post)
-  2. Weights are the values between neurons of one layer to another.
-  3. ANN consists of minimum three layer input layer, hidden layer and output layer. If a network consists of only one          hidden layer it is also referred as one layer network.
+  2. Weights are the values between neurons from one layer to another.
+  3. ANN consists minimum of three layers; input layer, hidden layer and output layer. If a network consists of only one                               hidden layer it is also referred as one layer network.
 
 
 References:
