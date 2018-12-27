@@ -27,7 +27,7 @@ Firstly, let's start with Artificial Neural Network which we had researched at o
 
 {% include gallery %}
 
-Lets, now discuss about each aspect of neural network in detail:
+Now let's discuss about each aspect of neural network in detail:
 ANN consists neurons, weights, biases and layers.
 
   1. Neurons consits of values calculated using activation function and biases(We will discuss more about this in later post)
