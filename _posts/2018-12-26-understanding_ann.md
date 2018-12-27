@@ -23,7 +23,7 @@ gallery:
 
 We have a rule in our college that we cannot choose the topics or algorithms that our senior had done in previous year. Since, we were willing to do a project related to prediction of disease. Our seniors had done a project on pneumonia detection using Bayesian Network. So, we had no any algorithm of choice rather than Artificial Neural Network; That's what we thought at that time.
 
-Firstly, lets start with Artificial Neural Network which we had researched at our very first month of project. Artificial Neural Networks is simply the structure used to calculate output based on input, hidden layer followed by activation functions to produce desired result.
+Firstly, let's start with Artificial Neural Network which we had researched at our very first month of project. Artificial Neural Networks is simply the structure used to calculate output based on input, hidden layer followed by activation functions to produce desired result.
 
 {% include gallery %}
 
