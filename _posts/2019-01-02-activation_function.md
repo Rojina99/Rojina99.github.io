@@ -38,6 +38,6 @@ There are many variations of activation fucntion. But, three of them are used ex
 
 1. Sigmoid Activation function:
 
-  <img src="{{ site.url }}{{ site.baseurl }}/images/actv/sigmoid.jpg" alt="Sigmoid activation function">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/actv/tanh.png" alt="Tanh activation function">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/actv/sigmoid.png" alt="Sigmoid activation function">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/actv/tanh.jpeg" alt="Tanh activation function">
   <img src="{{ site.url }}{{ site.baseurl }}/images/actv/relu.jpg" alt="Relu activation function">
