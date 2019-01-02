@@ -60,7 +60,7 @@ There are many variations of activation fucntion. But, three of them are used ex
     
     Tanh activation function is used in the scenarios where output is not sufficiently covered by Sigmoid activation function. It can be used for activation function in larger range and can also be used to predict classes at different labels like tends to -1 for one class, approximate to zero for another class and approximate to 1 for other.
     
-  3. ReLU Activation function:
+ 3. ReLU Activation function:
      ReLU(Rectified Linear Unit) is denoted as:
      $$ f(x) =  0 for x < 0 $$ and
               $$x for x >= 0 $$
