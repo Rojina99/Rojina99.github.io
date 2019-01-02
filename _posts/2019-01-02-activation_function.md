@@ -37,7 +37,30 @@ The activation fucntion is introduced in the network due to following reasons:
 There are many variations of activation fucntion. But, three of them are used extensively. They are:
 
 1. Sigmoid Activation function:
+  
+   Sigmoid activation function is denoted by :
+   $$ f(x) = 1/(1 + e^-x)$$
+   which also can be written as:
+   $$ f(x) = e^x/(1+e^x)$$
+   
+   The value of this function ranges from 0 to 1 and it can be represented in the figure as:
 
-  <img src="{{ site.url }}{{ site.baseurl }}/images/actv/sigmoid.png" alt="Sigmoid activation function">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/actv/tanh.jpeg" alt="Tanh activation function">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/actv/relu.jpg" alt="Relu activation function">
+   <img src="{{ site.url }}{{ site.baseurl }}/images/actv/sigmoid.png" alt="Sigmoid activation function">
+  
+ 2. Tanh Activation function:
+ 
+    Tanh activation function can be represented as:
+    $$ f(x) = (e^x - e^-x)/(e^x + e^-x)
+    
+    It's value ranges from -1 to 1 and can be illustrated as:
+    
+    <img src="{{ site.url }}{{ site.baseurl }}/images/actv/tanh.jpeg" alt="Tanh activation function">
+    
+  3. ReLU Activation function:
+     ReLU(Rectified Linear Unit) is denoted as:
+     $$ f(x) =  0 for x < 0 $$ and
+              $$x for x >= 0 $$
+              
+     It is represented by following figure:
+  
+     <img src="{{ site.url }}{{ site.baseurl }}/images/actv/relu.jpg" alt="Relu activation function">
