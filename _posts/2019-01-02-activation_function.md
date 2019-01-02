@@ -62,7 +62,7 @@ There are many variations of activation fucntion. But, three of them are used ex
     
  3. ReLU Activation function:
      ReLU(Rectified Linear Unit) is denoted as:
-     $$ f(x) =  0 for x < 0 $$ and  $$  x for x >= 0 $$
+     $$ f(x) =  0 for x < 0 $$ and  $$  x for  x >= 0 $$
               
      It is represented by following figure:
   
