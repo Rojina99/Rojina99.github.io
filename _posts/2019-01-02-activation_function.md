@@ -68,8 +68,7 @@ There are many variations of activation fucntion. But, three of them are used ex
   
      <img src="{{ site.url }}{{ site.baseurl }}/images/actv/relu.jpg" alt="Relu activation function">
      
-     This function is introducted recently than other two function. This was introduced to overcome a major problem in above two function, which is vanishing gradient problem. For the graph of above two function we can see that the gradient of function approaches to zero when the values of function approaches to 1. 
-     
+     This function is introducted recently than other two function. This was introduced to overcome a major problem in above two function, which is vanishing gradient problem. For the graph of above two function we can see that the gradient of function approaches to zero when the values of function approaches to |1|.
      If this happens the optimizer funtion will no more be able to learn from the input values as gradient approaches zero. So, to overcome this problem ReLU was introduced whose value ramges from 0 to x. This also has one major problem which is dying ReLU problem. For this other variations of ReLU like Parameteric ReLU,  Leaky ReLU are introduced where it has some small value for even zero input to the activation function. 
      
 How is ReLU non-linear activation function?
