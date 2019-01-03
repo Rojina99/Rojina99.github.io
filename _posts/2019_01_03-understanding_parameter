@@ -1,0 +1,14 @@
+---
+title: "Learning Parameters"
+date: 2019-01-03
+tags: [machine learning, data science, neural network, activation function]
+header:
+  image: "/images/introduction/intro.jpg"
+excerpt: "Machine Learning, Data Science"
+mathjax: "true"
+gallery:
+   - image_path: /images/lp/ann_math.jpg
+     alt: "activation ann"
+     url: /images/alp/ann_math.jpg
+     title: "Figure 1"
+---
