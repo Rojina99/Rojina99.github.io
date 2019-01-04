@@ -14,7 +14,7 @@ gallery:
      - image_path: /images/parameters/lr_gd.png
      alt: "activation ann"
      url: /images/parameters/lr_gd.png
-     title: "Figure 1"
+     title: "Figure 2"
 ---
 
 We have to understand that preparing a simple network is very easy task once you get the grasp of network structure. Now a days there are so many high level programming APIs that have already implemented this feature. 
@@ -41,7 +41,14 @@ Loss function calculates error in the network. Neural network work on the princi
 Accuracy is calculated by comparing expected output with predicted output. So, chossing an optimizer function is very essential step in ANN. But, there are so many variations that chossing a right one is also difficult.
 The most basic optimizer function is Gradient Descent Optimizer function and most popular is Adam Optimizer.
 
+{% include gallery %}
+
 From figure we can see a simple illustration of gradient descent algorithm optimization method. We can know from the figure that purpose of optimizer function is to reduce loss as much as possible. So, it tries to find a minima called local minima.  
 It is better to find global minimum. But this comes as drawback of gradient descent optimizer since it is gets stuck in local miminum.
 
 We also can see that if learning rate is too small it takes very small steps to reach local minimum  so the time to learn will be very high. If learning rate is high it takes large steps so that it will be almost impossible to reach local minimum since the optimizer will go back and forth through the network.
+
+5. Type of network: There are so many variartions of network we can choose from like simple feed forward network, LSTM(Long Short Term Memory), CNN (Convolutional Neural Network). We have to choose them according to requirement.
+
+There are many more parmaters like momemtum, dropout, type of cost function, type of accuracy function which have to be considered while preparing ANN to produce required result.
+But, these are the basic paramters to be considered. 
