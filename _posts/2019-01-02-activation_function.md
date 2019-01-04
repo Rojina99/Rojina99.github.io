@@ -1,6 +1,6 @@
 ---
 title: "Activation Function"
-date: 22019-01-02
+date: 2019-01-02
 tags: [machine learning, data science, neural network, activation function]
 header:
   image: "/images/introduction/intro.jpg"
