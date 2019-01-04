@@ -34,7 +34,9 @@ And if learning rate is too small network might take infinite time to converge i
 So, if we chosse very large number of hidden layer then the weight values might get attenuated over the layers and produce undesired results. While if the nuber of layers is too small then our network might not be able to learn required values.
 Having less number of hidden layer might lead to no learning of features at all. But having higher number of hidden layer might also cause overfitting due to over learning of weight values for given parameters.
 
-3. Number of neurons:
+3. Number of neurons: Neurons are basic building block of neural network. So, we have to consider carefully while chosing number of neurons in network. Having more neurons will lead to more complexity while having less will make network unlearnable. The effect of choosing more or leass number of neurons is same as that of chossing number of hidden layers.
+
+4. Optimizer funtion: Optimizer function is the most essential part of artificial neural network. It is what makes the neural network so powerful. Without optimizer function the network will not be able to learn even with the presence of all above parameters. 
 
 
 From figure we can see a simple illustration of gradient descent algorithm optimization method. We can know from the figure that purpose of optimizer function is to reduce loss as much as possible. So, it tries to find a minima called local minima.  
