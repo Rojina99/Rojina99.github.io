@@ -29,3 +29,8 @@ Now let's discuss about each parameter in detail.
 
 1. Learning Rate: This is the rate at which our network learns with provided data. We have be careful while chossing a leraning rate. If learning rate is too high the network will not converge. 
 And if learning rate is too small network might take infinite time to converge i.e. find local mimina in case of gradient descent optimization.
+
+From figure we can see a simple illustration of gradient descent algorithm optimization method. We can know from the figure that purpose of optimizer function is to reduce loss as much as possible. So, it tries to find a minima called local minima.  
+It is better to find global minimum. But this comes as drawback of gradient descent optimizer since it is gets stuck in local miminum.
+
+We also can see that if learning rate is too small it takes forever for a network to reach local minum and if lea
