@@ -27,7 +27,7 @@ We also must be familiar about data preparation process before passing them to n
 
 Now let's discuss about each parameter in detail.
 
-1. Learning Rate: This is the rate at which our network learns with provided data. We have be careful while chossing a leraning rate. If learning rate is too high the network will not converge. 
+1. Learning Rate: This is the rate at which our network learns with provided data. We have be careful while chosing a leraning rate. If learning rate is too high the network will not converge. 
 And if learning rate is too small network might take infinite time to converge i.e. find local mimina in case of gradient descent optimization.
 
 2. Number of hidden layer in the network: Chosing number of hidden layers also plays an essential role while preparing a network. We have to be known with the fact taht more the number of hidden layers in the network more will be the complexity of network. We already know that the weight values transfer across the layers in network.
