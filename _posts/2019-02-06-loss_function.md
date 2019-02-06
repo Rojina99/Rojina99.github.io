@@ -1,0 +1,20 @@
+---
+title: "Learning Parameters"
+date: 2019-02-06
+tags: [machine learning, data science, neural network, loss function, cost function]
+header:
+  image: "/images/introduction/intro.jpg"
+excerpt: "Machine Learning, Data Science"
+mathjax: "true"
+gallery:
+   - image_path: /images/parameters/gd.png
+     alt: "gradient descent"
+     url: /images/parameters/gd.png
+     title: "Figure 1"
+   - image_path: /images/parameters/lr_gd.png
+     alt: "gradient descent for lower learning rate and higher learning rate"
+     url: /images/parameters/lr_gd.png
+     title: "Figure 2"
+---
+
+Before understanding the process of neural network optimization we have to understand loss function.
