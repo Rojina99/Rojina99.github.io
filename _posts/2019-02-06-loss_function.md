@@ -1,5 +1,5 @@
 ---
-title: "Learning Parameters"
+title: "Loss Function"
 date: 2019-02-06
 tags: [machine learning, data science, neural network, loss function, cost function]
 header:
