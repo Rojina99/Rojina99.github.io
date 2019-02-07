@@ -23,3 +23,11 @@ Before understanding the process of neural network optimization we have to under
    It is function which calculates difference between actual output and predicted output which is summed and the mean of the sum is taken. The function is represented as:
    
    $$ L = \frac{1}{n} \sum_{i=1}^{n}(y-y_{pred})^2 $$
+   
+   This function is mostly used for regression problems i.e. when the target output is continuous or numerical value prediction. For example:- bank transaction amount, number of sales each day.
+   
+   | Author | Publication | Ideal Book Price | Actual Book Price| 
+   |--------|-------------|------------------|------------------|
+   | Deepak | McGrew | 100 | 95
+   | Peter | Cambridge | 500 | 300
+   | Rosel | Ratna | 700 | 500
