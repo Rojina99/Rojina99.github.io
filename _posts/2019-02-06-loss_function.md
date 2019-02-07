@@ -21,4 +21,5 @@ Before understanding the process of neural network optimization we have to under
 
 1. Mean Squared Error:-
    It is function which calculates difference between actual output and predicted output which is summed and the mean of the sum is taken. The function is represented as:
-   $$ L = \frac{1}{n}\sum_{i=1}^{n}[y-y{pred}]^2$$
+   
+   $$ L = \frac{1}{n} \sum_{i=1}^{n}(y-y_{pred})^2 $$
