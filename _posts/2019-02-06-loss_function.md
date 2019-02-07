@@ -18,3 +18,7 @@ gallery:
 ---
 
 Before understanding the process of neural network optimization we have to understand loss function. Loss function also called cost function is simply a function representing difference between target (actual) output($$y$$) and predicted output($$y_{pred}$$). Neural network optimizers are usually focused on miniming this loss function. There are many loss function. Some of them will be discussed here.
+
+1. Mean Squared Error:-
+   It is function which calculates difference between actual output and predicted output which is summed and the mean of the sum is taken. The function is represented as:
+   $$ L = \frac{1}{n}\sum_{i=1}^{n}[y-y{pred}]^2$$
