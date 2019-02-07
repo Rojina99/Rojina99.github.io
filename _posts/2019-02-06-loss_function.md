@@ -17,4 +17,4 @@ gallery:
      title: "Figure 2"
 ---
 
-Before understanding the process of neural network optimization we have to understand loss function. Loss function also called cost function is simply a function representing difference between target or actual output(y) and predicted output($$y_{pred}$$).
+Before understanding the process of neural network optimization we have to understand loss function. Loss function also called cost function is simply a function representing difference between target (actual) output($$y$$) and predicted output($$y_{pred}$$). Neural network optimizers are usually focused on miniming this loss function. There are many loss function. Some of them will be discussed here.
