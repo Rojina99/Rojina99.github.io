@@ -78,9 +78,21 @@ Before understanding the process of neural network optimization we have to under
  4. Cross Entropy Loss:
     This loss is also called log loss. It is represented by formula:
     
-    $$ CE = -\sum_{i}^{n}y_{i} log (^y_{i}) $$
+    $$ CE = -\sum_{i}^{n}y_{i} log (y'_{i}) $$
     
-    $$ L=−1nn∑i=1[y(i)log(^y(i))+(1−y(i))log(1−^y(i))] $$
+    In case of binary classification i.e. n=2.
+    
+    $$ CE = -(y_{i}log(y'{i}) + (1-y_{i})log(1-y'_{i})) $$
+    
+    When, y_{i}(Actual Output) is 1 second half of function is zero and when y{i} is 0 first half is zero. It thus calculates multiplication of log of predicted probability with actual class. The predicted probalitity is ranged from 0 to 1. If the difference between actual value and predicted value is small the cross entropy loss will be small else the loss will increase logarithimically. Binary classification problen has output in the formsat of true or false, 0 or 1. So, sigmoid activation function is implemented at final layer.
+    
+   First formula can be implemented for multi class classification problem with softmax as classifier in final layer.
+   In this kind of problem actual output will be in the format [0 0 1 0 0] and predicted outcome will be like [0.10 0.11 0.4 0.11 0.28]. Here, the sum of predicted output classes is 1. 
+   
+   **Note:** *Since, log of 0 is undefined. So, to avoid this scenario a small value like 1e-13 is added to value inside  log function.*
+   
+These are some of the popular loss functions. We will discuss backpropagation algorithm in next post.
+    
     
     
     
