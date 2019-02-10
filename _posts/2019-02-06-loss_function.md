@@ -80,6 +80,8 @@ Before understanding the process of neural network optimization we have to under
     
     $$ CE = -\sum_{i}^{n}y_{i} log (^y_{i}) $$
     
+    $$ L=−1nn∑i=1[y(i)log(^y(i))+(1−y(i))log(1−^y(i))] $$
+    
     
     
  
