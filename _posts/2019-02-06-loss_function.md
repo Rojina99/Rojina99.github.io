@@ -26,8 +26,27 @@ Before understanding the process of neural network optimization we have to under
    
    This function is mostly used for regression problems i.e. when the target output is continuous or numerical value prediction. For example:- bank transaction amount, number of sales each day.
    
-   | Author | Publication | Ideal Book Price | Actual Book Price| 
-   |--------|-------------|------------------|------------------|
-   | Deepak | McGrew | 100 | 95
-   | Peter | Cambridge | 500 | 300
-   | Rosel | Ratna | 700 | 500
+   | Author |Ideal Book Price | Actual Book Price| 
+   |--------|-----------------|------------------|
+   | Deepak | 100 | 95 |
+   | Peter | 500 | 300 |
+   | Rosel | 700 | 500 |
+   
+   Normalizing and embedding representaion of data results in
+   
+   | Author | Ideal Book Price | Actual Book Price| 
+   |--------|------------------|------------------|
+   | 00 |100 | 95 |
+   | 01 |500 | 300 |
+   | 10 |700 | 500 |
+   
+   The normalization formula is represtented as:
+   $$f(x) = \frac{(x−dL)(nH−nL)}{(dH−dL)} + nL$$
+   
+   Where, x is value to be normalized, 
+          dH and dL are high and low value of an attribute,
+          nH and nL are range of normalization
+   
+   
+   
+   
