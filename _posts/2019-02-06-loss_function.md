@@ -26,27 +26,38 @@ Before understanding the process of neural network optimization we have to under
    
    This function is mostly used for regression problems i.e. when the target output is continuous or numerical value prediction. For example:- bank transaction amount, number of sales each day.
    
-   | Author |Ideal Book Price | Actual Book Price| 
+   | Author |Ideal Book Price | Predicted Book Price| 
    |--------|-----------------|------------------|
    | Deepak | 100 | 95 |
    | Peter | 500 | 300 |
    | Rosel | 700 | 500 |
    
+   
    Normalizing and embedding representaion of data results in
    
-   | Author | Ideal Book Price | Actual Book Price| 
+   | Author | Ideal Book Price | Predicted Book Price| 
    |--------|------------------|------------------|
-   | 00 |100 | 95 |
-   | 01 |500 | 300 |
-   | 10 |700 | 500 |
+   | 00 |0 | 0.13 |
+   | 01 |0.667 | 0.33 |
+   | 10 |1 | 0.63 |
+   
+   *Table 1
    
    The normalization formula is represtented as:
+   
    $$f(x) = \frac{(x−dL)(nH−nL)}{(dH−dL)} + nL$$
    
    Where, x is value to be normalized, 
           dH and dL are high and low value of an attribute,
-          nH and nL are range of normalization
+          nH and nL are range of normalization i.e 0 to 1, -1 to 1, 100 to 100, ...
    
+   And denormalization formula to get original value is given by formula:
    
+   $$f(x) = \frac{(dL−dH)x−(nH·dL)+dH·nL}{(nL−nH)}$$
+   
+   Then the MSE error is calculated as:
+   
+   $$ L = \frac{1}{3}(0-0.13)^2 + (0.667-0.33)^2 + (1-0.63)^2 $$
+   $$ L = 0.0891 $$
    
    
