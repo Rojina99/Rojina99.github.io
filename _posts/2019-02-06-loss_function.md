@@ -66,20 +66,20 @@ Before understanding the process of neural network optimization we have to under
     
     $$ L = \sum_{i=1}^{n}|y-y_{pred}|^2 $$
     
-    It is also used in regression problem and the activation function for final layer would be linear.
+    It is used in regression problem and the activation function for final layer would be linear.
     
  3. L2 loss :-
     It is also called least squared error. It is the sum of squares of targeted output ($$ y $$) and predicted output ($$ y_{pred} $$) as represented by given formula:
     
     $$ L = \sum_{i=1}^{n}(y-y_{pred})^2  $$
     
-    It is also used in regression problem and uses linear activation function in final layer. But it is usually preferred over L1 error because it estimates mean whereas L1 estimated median value. But, we know that mean is extremely affected by presence of outliers. So, in presence of outliers L1 is preffered over L2 error function.
+    Similarly, it is used in regression problem and uses linear activation function in final layer. But it is usually preferred over L1 error because it estimates mean whereas L1 estimates median value. But, we know that mean is extremely affected by presence of outliers. So, in presence of outliers L1 is preffered over L2 error function.
     
-   
+ 4. Cross Entropy Loss:
+    This loss is also called log loss. It is represented by formula:
+    
+    $$ CE = -\sum_{i}^{n}y_{i} log (^y_{i}) $$
     
     
-  
-  
-   
-   
-   
+    
+ 
