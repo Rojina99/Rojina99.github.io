@@ -41,8 +41,6 @@ Before understanding the process of neural network optimization we have to under
    | 01 |0.667 | 0.33 |
    | 10 |1 | 0.63 |
    
-   *Table 1
-   
    The normalization formula is represtented as:
    
    $$f(x) = \frac{(x−dL)(nH−nL)}{(dH−dL)} + nL$$
