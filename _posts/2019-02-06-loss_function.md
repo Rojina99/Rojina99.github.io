@@ -45,9 +45,9 @@ Before understanding the process of neural network optimization we have to under
    
    $$f(x) = \frac{(x−dL)(nH−nL)}{(dH−dL)} + nL$$
    
-   Where, 
-    x is value to be normalized   
-    dH and dL are high and low value of an attribute          
+   Where 
+    x is value to be normalized,   
+    dH and dL are high and low value of an attribute,          
     nH and nL are range of normalization i.e 0 to 1, -1 to 1, 100 to 100, ...
    
    And denormalization formula to get original value is given by formula:
@@ -56,7 +56,7 @@ Before understanding the process of neural network optimization we have to under
    
    Then the MSE error is calculated as:
    
-   $$ L = \frac{1}{3}(0-0.13)^2 + (0.667-0.33)^2 + (1-0.63)^2 $$
+   $$ L = \frac{1}{3}[(0-0.13)^2 + (0.667-0.33)^2 + (1-0.63)^2] $$
    $$ L = 0.0891 $$
    
    
