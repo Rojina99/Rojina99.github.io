@@ -17,14 +17,16 @@ gallery:
      title: "Figure 2"
 ---
 
-Before understanding the process of neural network optimization we have to understand loss function. Loss function also called cost function is simply a function representing difference between target (actual) output($$y$$) and predicted output($$y_{pred}$$). Neural network optimizers are usually focused on miniming this loss function. There are many loss function. Some of them will be discussed here.
+Before understanding the process of neural network optimization we have to understand loss function. Loss function also called cost function is simply a function representing difference between target or actual output($$y$$) and predicted output($$y_{pred}$$). Neural network optimizers are usually focused on miniming this loss function. There are many loss function. Some of them will be discussed here.
 
 1. Mean Squared Error:-
    It is function which calculates difference between targeted output and predicted output which is summed and the mean of the sum is taken. The function is represented as:
    
    $$ L = \frac{1}{n} \sum_{i=1}^{n}(y-y_{pred})^2 $$
    
-   This function is mostly used for regression problems i.e. when the target output is continuous or numerical value prediction. For example:- bank transaction amount, number of sales each day.
+   This function is mostly used for regression problems i.e. when the target output is continuous or for numerical value prediction. For example:- bank transaction amount, number of sales each day.
+   
+   Let's, look at a table having continuous result: 
    
    | Author |Ideal Book Price | Predicted Book Price| 
    |--------|-----------------|------------------|
@@ -33,7 +35,7 @@ Before understanding the process of neural network optimization we have to under
    | Rosel | 700 | 500 |
    
    
-   Normalizing and embedding representaion of data results in
+   Normalizing and embedding representaion of above data results follwing table:
    
    | Author | Ideal Book Price | Predicted Book Price| 
    |--------|------------------|------------------|
@@ -46,9 +48,9 @@ Before understanding the process of neural network optimization we have to under
    $$f(x) = \frac{(x−dL)(nH−nL)}{(dH−dL)} + nL$$
    
    Where, 
-    x is value to be normalized,   
-    dH and dL are high and low value of an attribute,          
-    nH and nL are range of normalization i.e 0 to 1, -1 to 1, 100 to 100, ...
+    > x is value to be normalized,   
+    > dH and dL are high and low value of an attribute,          
+    > nH and nL are range of normalization i.e 0 to 1, -1 to 1, 100 to 100, ...
    
    And denormalization formula to get original value is given by formula:
    
@@ -92,8 +94,8 @@ Before understanding the process of neural network optimization we have to under
    **Note:** *Since, log of 0 is undefined. So, to avoid this scenario a small value like 1e-13 is added to value inside  log function.*
    
 These are some of the popular loss functions. We will discuss backpropagation algorithm in next post.
-    
-    
- \^{y}
+
+$$ ^{y} $$
+   
     
  
