@@ -95,7 +95,7 @@ Before understanding the process of neural network optimization we have to under
    
 These are some of the popular loss functions. We will discuss backpropagation algorithm in next post.
 
-$$ ^{y} $$
+$$ \hat{y} $$
    
     
  
