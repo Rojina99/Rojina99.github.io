@@ -26,7 +26,7 @@ Before understanding the process of neural network optimization we have to under
    
    This function is mostly used for regression problems i.e. when the target output is continuous or for numerical value prediction. For example:- bank transaction amount, number of sales each day.
    
-   Let's, look at a table having continuous result: 
+   Let's, look at a table having continuous output: 
    
    | Author |Ideal Book Price | Predicted Book Price| 
    |--------|-----------------|------------------|
@@ -35,7 +35,7 @@ Before understanding the process of neural network optimization we have to under
    | Rosel | 700 | 500 |
    
    
-   Normalizing and embedding representaion of above data results follwing table:
+   Normalizing and embedding representaion of above data results following table:
    
    | Author | Ideal Book Price | Predicted Book Price| 
    |--------|------------------|------------------|
@@ -75,7 +75,7 @@ Before understanding the process of neural network optimization we have to under
     
     $$ L = \sum_{i=1}^{n}(y-y_{pred})^2  $$
     
-    Similarly, it is used in regression problem and uses linear activation function in final layer. But it is usually preferred over L1 error because it estimates mean whereas L1 estimates median value. But, we know that mean is extremely affected by presence of outliers. So, in presence of outliers L1 is preffered over L2 error function.
+    Similarly, it is used in regression problem and uses linear activation function in final layer. It is usually preferred over L1 error because it estimates mean whereas L1 estimates median value. But, we know that mean is extremely affected by presence of outliers. So, in presence of outliers, L1 is preferred over L2 error function.
     
  4. Cross Entropy Loss:
     This loss is also called log loss. It is represented by formula:
@@ -86,11 +86,11 @@ Before understanding the process of neural network optimization we have to under
     
     $$ CE = -(y_{i}log(\hat{y}_{i}) + (1-y_{i})log(1-\hat{y}_{i})) $$
     
-    When, y_{i}(Actual Output) is 1 second half of function is zero and when y{i} is 0 first half is zero. It thus calculates multiplication of log of predicted probability with actual class. The predicted probalitity is ranged from 0 to 1. If the difference between actual value and predicted value is small the cross entropy loss will be small else the loss will increase logarithimically. Binary classification problen has output in the formsat of true or false, 0 or 1. So, sigmoid activation function is implemented at final layer.
+    When, y_{i}(Actual Output) is 1, second half of function is zero and when y{i} is 0, first half is zero. Thus, it calculates multiplication of log of predicted probability with actual class. The predicted probalitity is ranged from 0 to 1. If the difference between actual value and predicted value is small the cross entropy loss will be small else the loss will increase logarithimically. Binary classification problen has output in the format of true or false, 0 or 1. So, sigmoid activation function is implemented at final layer.
     
-   First formula can be implemented for multi class classification problem with softmax as classifier in final layer.
-   In this kind of problem actual output will be in the format [0 0 1 0 0] and predicted outcome will be like [0.10 0.11 0.4 0.11 0.28]. Here, the sum of predicted output classes is 1. 
+       First formula can be implemented for multi class classification problem with softmax as classifier in final layer.
+       In this kind of problem actual output will be in the format [0 0 1 0 0] and predicted outcome will be like [0.10 0.11 0.4     0.11 0.28]. Here, the sum of predicted output classes is 1. 
    
-   **Note:** *Since, log of 0 is undefined. So, to avoid this scenario a small value like 1e-13 is added to value inside  log function.*
+       **Note:** *Since, log of 0 is undefined. So, to avoid this scenario a small value like 1e-13 is added to value inside  log function.*
    
 These are some of the popular loss functions. We will discuss backpropagation algorithm in next post.
