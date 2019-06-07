@@ -78,21 +78,21 @@ Initial input, weight and bias is given as:
 
 Net Input and Output is calculated as:
 
-| Unit j | Net Input $$ I_{j} $$ | Output $$ O_{j} $$ |
+| $$ Unit j $$ | $$ Net Input I_{j} $$ | $$ Output O_{j} $$ |
 | 4 | 0.2 + 0 - 0.5 - 0.4 = - 0.7 | $$ /frac{1} {1 + e^0.7} = 0.332  $$ |
 | 5 | - 0.3 + 0 + 0.2 + 0.2 = 0.1 | $$ /frac{1} {1 + e^-0.1} = 0.525 $$ |
-| 6 | -0.3*-0.332 - 0.2 * 0.525 + 0.1 = -0.105 | $$ /frac{1} {1 + e^0.105} = 0.474 $$ |
+| 6 | -0.3 _ -0.332 - 0.2 _ 0.525 + 0.1 = -0.105 | $$ /frac{1} {1 + e^0.105} = 0.474 $$ |
 
 Calculation of error at each node as :
 
-| Unit j | $$ Err_{j} $$ |
+| $$ Unit j $$ | $$ Err_{j} $$ |
 | 6 | 0.474 _ (1 - 0.474) _ (1 - 0.474) = 0.1311 |
 | 5 | 0.525 _ (1 - 0.525) _ 0.1311 _ ( - 0.2 ) = - 0.0065 |
 | 7 | 0.332 _ (1 - 0.332) _ 0.1311 _ ( - 0.3 ) = - 0.0087 |
 
 Weight and Bias is updated as:
 
-| Weight or Bias | New Value |
+| $$ Weight or Bias $$ | $$ New Value $$ |
 | $$ w_{46} $$ | - 0.3 + 0.9 _ 0.1311 _ 0.332 = - 0.261 |
 | $$ w_{56} $$ | - 0.2 + 0.9 _ 0.1311 _ 0.525 = - 0.138 |
 | $$ w_{14} $$ | 0.2 + 0.9 _ ( - 0.0087 ) _ ( 1 ) = 0.192 |
