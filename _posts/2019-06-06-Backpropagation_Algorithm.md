@@ -106,3 +106,6 @@ Weight and Bias is updated as:
 | $$ θ_{4}  $$ | - 0.4 + 0.9 \_ ( - 0.0087 ) = - 0.408 |
 
 This same process can be used for network with more hidden layers and neurons.
+
+References:
+<br> 1.<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwiup-yD9dfiAhWZf30KHcnvABoQFjAAegQIABAC&url=http%3A%2F%2Fmyweb.sabanciuniv.edu%2Frdehkharghani%2Ffiles%2F2016%2F02%2FThe-Morgan-Kaufmann-Series-in-Data-Management-Systems-Jiawei-Han-Micheline-Kamber-Jian-Pei-Data-Mining.-Concepts-and-Techniques-3rd-Edition-Morgan-Kaufmann-2011.pdf&usg=AOvVaw0ez0loCjWdD0Jp2-2B3bAu">Data Mining: Concepts and Techniques Author: Jiawei Han</a><br>
