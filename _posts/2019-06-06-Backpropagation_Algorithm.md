@@ -79,9 +79,9 @@ Initial input, weight and bias is given as:
 Net Input and Output is calculated as:
 
 | Unit j | Net Input $$ I_{j} $$ | Output $$ O_{j} $$ |
-| 4 | 0.2 + 0 - 0.5 - 0.4 = - 0.7 | $$ /frac{1} {1 + e^0.7} = 0.332   |
-|   5    | - 0.3 + 0 + 0.2 + 0.2 = 0.1              | $$ /frac{1} {1 + e^-0.1} = 0.525 |
-| 6 | -0.3*-0.332 - 0.2 * 0.525 + 0.1 = -0.105 | \$\$ /frac{1} {1 + e^0.105} = 0.474 |
+| 4 | 0.2 + 0 - 0.5 - 0.4 = - 0.7 | $$ /frac{1} {1 + e^0.7} = 0.332  $$ |
+| 5 | - 0.3 + 0 + 0.2 + 0.2 = 0.1 | $$ /frac{1} {1 + e^-0.1} = 0.525 $$ |
+| 6 | -0.3*-0.332 - 0.2 * 0.525 + 0.1 = -0.105 | $$ /frac{1} {1 + e^0.105} = 0.474 $$ |
 
 Calculation of error at each node as :
 
